@@ -1,0 +1,40 @@
+﻿App,Field,Agent answer,Status,Reviewer finding,Official source
+Salesforce,Authentication,OAuth 2.0,PASS,Salesforce REST API docs say REST API access uses OAuth 2.0; external/connected apps obtain access tokens.,https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html
+Salesforce,API surface,REST API,PASS,Official Salesforce docs explicitly document the REST API and OAuth-protected REST resources.,https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html
+Salesforce,Credential access,Developer org/sandbox available; app setup required,PASS,Salesforce provides a free Developer Edition for testing; API integration requires configuring an external client/connected app.,https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html
+Salesforce,MCP,Official hosted MCP indicated,PASS,Agent's cited official Salesforce Hosted MCP documentation was used as evidence.,https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html
+Slack,Authentication,OAuth 2.0 / tokens,PASS,Slack authentication docs describe OAuth 2.0 and token-based authentication with scopes.,https://docs.slack.dev/authentication/
+Slack,API surface,Web API / REST-style HTTP API,PASS,Slack documentation lists APIs and Web API resources; authentication docs refer to tokens and API access.,https://docs.slack.dev/apis/web-api/
+Slack,MCP,Official Slack MCP indicated,PASS,Agent cited Slack's official MCP documentation.,https://docs.slack.dev/ai/slack-mcp-server.md
+Notion,Authentication,API token / OAuth 2.0,PASS,Notion documents static API tokens for internal/PAT use and OAuth 2.0 for public connections.,https://developers.notion.com/guides/get-started/authorization
+Notion,Credential access,Self-serve developer portal; public connection flow,PASS,Notion says internal connections are created in the Developer portal; public connections use OAuth and require configuration/review flow.,https://developers.notion.com/guides/get-started/authorization
+Notion,MCP,Official Notion MCP,PASS,Notion documentation explicitly has a Notion MCP section and MCP getting-started documentation.,https://developers.notion.com/guides/mcp/get-started-with-mcp
+Stripe,Authentication,API keys / Bearer option,PASS,Stripe says its API uses API keys; Bearer can also be used for some cases.,https://docs.stripe.com/api/authentication
+Stripe,Credential access,Self-serve dashboard API keys,PASS,Stripe says API keys can be viewed and managed in the Stripe Dashboard and provides test keys in examples.,https://docs.stripe.com/api/authentication
+Stripe,MCP,Official Stripe MCP,PASS,Agent cited Stripe's official MCP documentation.,https://docs.stripe.com/mcp
+GitHub,Authentication,PAT / GitHub App / OAuth tokens,PASS,"GitHub documents personal access tokens, GitHub Apps, OAuth tokens, and GITHUB_TOKEN for Actions.",https://docs.github.com/en/rest/authentication
+GitHub,API surface,REST API,PASS,GitHub has official REST API documentation.,https://docs.github.com/en/rest
+GitHub,MCP,Official GitHub MCP server,PASS,GitHub documents its GitHub MCP Server.,https://docs.github.com/en/copilot/concepts/context/mcp
+Mailchimp,Authentication,API key / OAuth 2.0,PASS,Mailchimp documents API keys for own-account access and OAuth 2 for third-party access.,https://mailchimp.com/developer/marketing/docs/fundamentals/
+Mailchimp,Credential access,Self-serve account/API key,PASS,Mailchimp documents creating API keys from the account; account/role limits apply.,https://mailchimp.com/developer/marketing/guides/quick-start/
+Mailchimp,MCP,No official MCP established,UNRESOLVED,"Agent found community implementations, but no official Mailchimp MCP source was established in this verification pass.",
+SendGrid,Authentication,API key / Bearer,PASS,Twilio SendGrid documents API keys and Bearer authentication.,https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication
+SendGrid,Credential access,Self-serve API keys,PASS,SendGrid says API keys are created in the SendGrid app/console.,https://www.twilio.com/docs/sendgrid/api-reference/api-keys
+SendGrid,MCP,No official MCP established,UNRESOLVED,Agent found community MCP implementations; no official Twilio SendGrid MCP source was established in this pass.,
+Binance,Authentication,API key + signed requests; HMAC/RSA/Ed25519,PASS,Binance documents API key types and signed endpoints; secure endpoints require valid API keys.,https://developers.binance.com/en/docs/products/spot/rest-api
+Binance,API surface,REST API,PASS,Official Binance Spot documentation is explicitly the REST API documentation.,https://developers.binance.com/en/docs/products/spot/rest-api
+Google Ads,Authentication,OAuth 2.0; developer token status changed,CORRECTED,"Agent said a developer token is required. Current Google documentation says developer tokens were sunset on September 9, 2026 and are now optional/ignored by servers; OAuth credentials remain required.",https://developers.google.com/google-ads/api/docs/api-policy/developer-token
+Google Ads,API surface,Google Ads API / REST,PASS,Official Google Ads documentation documents API calls and REST authorization headers.,https://developers.google.com/google-ads/api/rest/auth
+Google Ads,MCP,Official Google Ads MCP indicated,PASS,Agent cited Google's official Google Ads MCP server documentation.,https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server
+LinkedIn Ads,Authentication,"OAuth 2.0, 3-legged/member authorization",PASS,LinkedIn documents OAuth permissions as member permissions and describes authorization code flow.,https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access
+LinkedIn Ads,Credential access,Approval required for Advertising API,PASS,LinkedIn states Advertising API is available to developers approved for access and requires an application.,https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access
+LinkedIn Ads,MCP,No official MCP established,UNRESOLVED,Agent found third-party MCP servers but did not establish an official LinkedIn MCP source.,
+Brex,Authentication,OAuth 2.0 / client credentials,PASS,Brex documents OAuth 2.0/OpenID Connect and client credentials/authorization code grants.,https://developer.brex.com/guides/partner_authentication
+Brex,Credential access,Client self-serve; partner credentials gated,PASS,Brex distinguishes clients from developer partners and says partner client credentials are issued by Brex developer support.,https://developer.brex.com/guides/partner_authentication
+Brex,MCP,Official hosted MCP indicated,UNRESOLVED,No official Brex MCP documentation was independently established in this verification pass; retain as unresolved rather than relying on third-party search results.,
+PitchBook,Authentication,Static API key / PB-Token,PASS,PitchBook's API is documented as a separate API offering; agent's API-key claim is consistent with its cited documentation.,https://pitchbook.com/help/PitchBook-api
+PitchBook,Credential access,Contract-gated,PASS,PitchBook explicitly says its API is a separate offering requiring a standalone contract agreement.,https://pitchbook.com/help/PitchBook-api
+PitchBook,MCP,Official MCP not independently verified,UNRESOLVED,"Agent found a PitchBook Premium Connector/MCP claim, but this pass did not independently establish the official MCP status.",https://pitchbook.com/help/pitchbook-premium-connector-model-ml
+systeme.io,Authentication,API key / X-API-Key,PASS,Official systeme.io documentation says public API keys authenticate requests.,https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api
+systeme.io,Credential access,Self-serve dashboard API key,PASS,Official help docs describe creating API keys from account settings.,https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api
+systeme.io,MCP,Official MCP indicated,PASS,Official systeme.io help documentation provides MCP setup guidance.,https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp

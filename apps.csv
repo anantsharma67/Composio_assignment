@@ -1,0 +1,101 @@
+﻿id,app,category,description_hint
+1,Salesforce,CRM & Sales,Enterprise CRM & sales platform
+2,HubSpot,CRM & Sales,"Inbound CRM, marketing & sales hub"
+3,Pipedrive,CRM & Sales,Sales-pipeline CRM
+4,Attio,CRM & Sales,"Modern, flexible CRM"
+5,Twenty,CRM & Sales,Open-source CRM
+6,Podio,CRM & Sales,Citrix work-management/CRM
+7,Zoho CRM,CRM & Sales,Zoho's CRM product
+8,Close,CRM & Sales,Inside-sales CRM
+9,Copper,CRM & Sales,Google-Workspace-native CRM
+10,DealCloud,CRM & Sales,PE/IB deal & relationship CRM
+11,Zendesk,Support & Helpdesk,Helpdesk & ticketing
+12,Intercom,Support & Helpdesk,Customer messaging & support
+13,Freshdesk,Support & Helpdesk,Helpdesk software
+14,Front,Support & Helpdesk,Shared inbox / support
+15,Pylon,Support & Helpdesk,B2B support desk
+16,LiveAgent,Support & Helpdesk,Helpdesk & live chat
+17,Plain,Support & Helpdesk,Modern B2B support tool
+18,Help Scout,Support & Helpdesk,Shared-inbox helpdesk
+19,Gorgias,Support & Helpdesk,Ecommerce helpdesk
+20,Gladly,Support & Helpdesk,People-centered CX platform
+21,Slack,Communications,Team chat
+22,Twilio,Communications,Programmable SMS/voice
+23,Zoho Cliq,Communications,Zoho's team chat
+24,Lark (Larksuite),Communications,ByteDance workspace suite
+25,Pumble,Communications,Slack-alternative chat
+26,Discord,Communications,Community chat/voice
+27,Telegram,Communications,Messaging app
+28,WhatsApp Business,Communications,Meta business messaging
+29,Aircall,Communications,Cloud call center
+30,Vonage,Communications,SMS/voice/video comms APIs
+31,Google Ads,"Marketing, Ads & Social",Search/display ads platform
+32,Meta Ads,"Marketing, Ads & Social",Facebook/Instagram ads
+33,LinkedIn Ads,"Marketing, Ads & Social",LinkedIn ads platform
+34,GoHighLevel,"Marketing, Ads & Social",Agency CRM + funnel builder
+35,Mailchimp,"Marketing, Ads & Social",Email marketing
+36,Klaviyo,"Marketing, Ads & Social",Ecommerce email/SMS marketing
+37,systeme.io,"Marketing, Ads & Social",Funnel & course builder
+38,Pinterest,"Marketing, Ads & Social",Visual discovery/ads
+39,Threads (Meta),"Marketing, Ads & Social",Meta's text-post app
+40,SendGrid,"Marketing, Ads & Social",Transactional/marketing email
+41,Shopify,Ecommerce,Online store platform
+42,WooCommerce,Ecommerce,WordPress ecommerce plugin
+43,BigCommerce,Ecommerce,Hosted ecommerce platform
+44,Salesforce Commerce Cloud,Ecommerce,Enterprise commerce platform
+45,Magento (Adobe Commerce),Ecommerce,Self-hosted/Adobe commerce
+46,Squarespace,Ecommerce,Website/store builder
+47,Ecwid,Ecommerce,Embeddable storefront
+48,Gumroad,Ecommerce,Creator storefront
+49,Amazon Selling Partner,Ecommerce,Amazon marketplace seller API
+50,fanbasis,Ecommerce,Creator sales/checkout platform
+51,DataForSEO,"Data, SEO & Scraping",SEO/SERP data API
+52,SE Ranking,"Data, SEO & Scraping",SEO rank tracking
+53,Ahrefs,"Data, SEO & Scraping",SEO backlink/keyword data
+54,MrScraper,"Data, SEO & Scraping",AI web-scraping API
+55,Apify,"Data, SEO & Scraping",Web scraping/automation platform
+56,Firecrawl,"Data, SEO & Scraping",LLM-ready web scraping
+57,Bright Data,"Data, SEO & Scraping",Proxy/scraping infrastructure
+58,Sherlock,"Data, SEO & Scraping",OSINT username-search tool
+59,Waterfall.io,"Data, SEO & Scraping",Contact/company intel
+60,Clay,"Data, SEO & Scraping",Data enrichment/outreach workflows
+61,GitHub,Developer & Infra,Code hosting & collaboration
+62,Vercel,Developer & Infra,Frontend hosting/deploy
+63,Netlify,Developer & Infra,Frontend hosting/deploy
+64,Cloudflare,Developer & Infra,CDN/edge/security platform
+65,Supabase,Developer & Infra,Postgres backend-as-a-service
+66,Neo4j,Developer & Infra,Graph database
+67,Snowflake,Developer & Infra,Cloud data warehouse
+68,MongoDB Atlas,Developer & Infra,Managed MongoDB
+69,Datadog,Developer & Infra,Observability/monitoring
+70,Sentry,Developer & Infra,Error tracking
+71,Notion,Productivity & PM,Docs/wiki/workspace
+72,Airtable,Productivity & PM,Spreadsheet-database
+73,Linear,Productivity & PM,Issue tracking
+74,Jira,Productivity & PM,Issue/project tracking
+75,Asana,Productivity & PM,Task/project management
+76,Monday.com,Productivity & PM,Work OS / project management
+77,ClickUp,Productivity & PM,Project/task management
+78,Coda,Productivity & PM,Docs-as-apps
+79,Smartsheet,Productivity & PM,Spreadsheet-based PM
+80,Harvest,Productivity & PM,Time tracking/invoicing
+81,Stripe,Finance & Fintech,Payments platform
+82,Plaid,Finance & Fintech,Bank-account data aggregator
+83,Binance,Finance & Fintech,Crypto exchange
+84,Paygent Connect,Finance & Fintech,Payment gateway (NMI-powered)
+85,iPayX,Finance & Fintech,AI-assisted payments platform
+86,QuickBooks,Finance & Fintech,Small-business accounting
+87,Xero,Finance & Fintech,Accounting software
+88,Brex,Finance & Fintech,Corporate cards/spend mgmt
+89,Ramp,Finance & Fintech,Corporate cards/spend mgmt
+90,PitchBook,Finance & Fintech,PE/VC/M&A research data
+91,NotebookLM,"AI, Research & Media",Google's research/notebook AI
+92,Otter AI,"AI, Research & Media",Meeting transcription
+93,Fathom,"AI, Research & Media",Meeting recorder/notes
+94,Consensus,"AI, Research & Media",AI research-paper search
+95,Reducto,"AI, Research & Media",Document parsing/extraction
+96,Devin,"AI, Research & Media",Autonomous coding agent
+97,higgsfield,"AI, Research & Media",AI video/content generation
+98,Mermaid CLI,"AI, Research & Media",Diagram-as-code renderer
+99,YouTube Transcript,"AI, Research & Media",3rd-party YouTube transcript API
+100,Grain,"AI, Research & Media",Meeting recording/highlights
